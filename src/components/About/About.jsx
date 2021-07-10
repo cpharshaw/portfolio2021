@@ -1,5 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-scroll';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
@@ -61,6 +62,15 @@ const About = () => {
                   </span>
                 )}
               </div>
+            </Fade>
+            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+              <p className="hero-cta">
+                <span className="cta-btn cta-btn--resume">
+                  <Link to="projects" smooth duration={1000}>
+                    {'See my work'}
+                  </Link>
+                </span>
+              </p>
             </Fade>
           </Col>
         </Row>

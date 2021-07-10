@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, repo, img, id, tech } = project;
 
             return (
               <Row key={id}>
@@ -49,6 +49,27 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
+                      {
+                        tech ?
+                          <div className="mb-4">
+                            <ul
+                              style={{
+                                display: "flex",
+                                flexDirection: "row",
+                                justifyContent: "flex-start",
+                                alignContent: "center",
+                                alignItems: "center",
+                                padding: "0",
+                                margin: "0",
+                                flexWrap: "wrap",
+                                fontSize: "10px !important"
+                                // width: "80%"
+                              }}
+                            >
+                              {tech.map((tech, i) => <span className="mx-3" key={i} style={{ display: "flex", fontStyle: "italic", padding: "0", margin: "0", fontSize: "0.9rem !important" }}>{tech}</span>)}
+                            </ul>
+                          </div> : null
+                      }                   
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -79,7 +100,7 @@ const Projects = () => {
                     delay={1000}
                     distance="30px"
                   >
-                    <div className="project-wrapper__image">
+                    <div className="project-wrapper__image" style={{boxShadow: "0 0 25px #C0C0C0"}}>
                       <a
                         href={url || '#!'}
                         target="_blank"
@@ -99,7 +120,7 @@ const Projects = () => {
                             easing: 'cubic-bezier(.03,.98,.52,.99)',
                           }}
                         >
-                          <div data-tilt className="thumbnail rounded">
+                          <div data-tilt className="thumbnail rounded" >
                             <ProjectImg alt={title} filename={img} />
                           </div>
                         </Tilt>

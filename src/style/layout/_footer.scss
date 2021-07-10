@@ -36,6 +36,10 @@
   }
 }
 
+.footer__text, .footer__text > a {
+  color: #434343 !important;
+}
+
 .social-links {
   display: flex;
   flex-direction: row;

@@ -18,6 +18,18 @@
     clip-path: none;
   }
 
+  // .rounded.shadow-lg.gatsby-image-wrapper,
+  .gatsby-image-wrapper,
+  {
+    border-radius: 3.25% !important;
+    box-shadow: 0 0 25px #505050 !important;
+  }
+
+  a[aria-label="Project Link"] > div {
+    box-shadow: 0 0 25px red !important;
+    border-radius: 39.25% !important;
+  }
+
   .about-wrapper {
     @include respond(phone) {
       padding-bottom: 5rem;
