@@ -62,8 +62,15 @@ const About = () => {
                   </span>
                 )}
               </div>
+              <p className="hero-cta">
+                <span className="cta-btn cta-btn--resume">
+                  <Link to="projects" smooth duration={1000}>
+                    {'See my work'}
+                  </Link>
+                </span>
+              </p>              
             </Fade>
-            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+            {/* <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <p className="hero-cta">
                 <span className="cta-btn cta-btn--resume">
                   <Link to="projects" smooth duration={1000}>
@@ -71,7 +78,7 @@ const About = () => {
                   </Link>
                 </span>
               </p>
-            </Fade>
+            </Fade> */}
           </Col>
         </Row>
       </Container>
