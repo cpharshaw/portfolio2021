@@ -14,7 +14,7 @@ export default function HTML({
   body,
 }) {
   return (
-    <html {...htmlAttributes}>
+    <html {...htmlAttributes} lang="en">
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
