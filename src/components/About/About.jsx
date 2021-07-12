@@ -8,7 +8,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, paragraphFour, paragraphFive, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -28,13 +28,13 @@ const About = () => {
       <Container>
         <Title title="About Me" />
         <Row className="about-wrapper">
-          <Col md={6} sm={12}>
+          {/* <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
                 <AboutImg alt="profile picture" filename={img} />
               </div>
             </Fade>
-          </Col>
+          </Col> */}
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
@@ -48,6 +48,12 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphFour || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphFive || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
@@ -68,7 +74,7 @@ const About = () => {
                     {'See my work'}
                   </Link>
                 </span>
-              </p>              
+              </p>
             </Fade>
             {/* <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <p className="hero-cta">

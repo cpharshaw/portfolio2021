@@ -28,10 +28,11 @@ html, body {
   {
     border-radius: 3.25% !important;
     box-shadow: 0 0 25px #505050 !important;
+    // max-width: 65vw !important;
   }
 
   a[aria-label="Project Link"] > div {
-    box-shadow: 0 0 25px red !important;
+    box-shadow: 0 0 25px grey !important;
     border-radius: 39.25% !important;
   }
 

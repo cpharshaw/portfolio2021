@@ -16,11 +16,16 @@ export const heroData = {
 };
 
 // ABOUT DATA
+// I am a fan of Javascript and enjoy using React and Node to tinker and build applications
+// 
+// and I'm a highly motivated self-starter seeking to launch a professional development career and use my full-stack development skills to build great applications.
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: `I am a web developer with a particular interest in both React and Node.`,
-  paragraphTwo: `Living in Philadelphia, I've been able to meet people from all different backgrounds and countries.  `,
-  paragraphThree: `I also a background in data analytics, working in the mortgage insurance industry for the past few years, and can put just about anything into a pivot table or vlookup.`,
+  img: '', //profile.jpg
+  paragraphOne: `Hello.  My name is Craig and I am a web developer currently living in Philadelphia, PA.`,
+  paragraphTwo: `I have a background in data analytics and can pivot table or vlookup just about anything.`,
+  paragraphThree: `I've learned how to learn... `,
+  paragraphFour: ` `,
+  paragraphFive: `In my free time, I love to play rec league soccer, basketball, and flag football.  I am an adventurous eater as well, with Indian food, sushi, and BBQ among my faves.`,
   resume: '', // if no resume, the button will not show up https://www.resumemaker.online/es.php
 };
 
@@ -30,7 +35,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'RestEasy.png',
     title: 'RestEasy.app',
-    info: `Full-stack React app that aims to be Yelp for public restrooms.  It uses the Foursquare API to present establishments on a Google Map, and authenticated users can then submit reviews of the establishments' restroom(s) (cleanliness, style, etc).`,
+    info: `Full-stack React app that aims to be Yelp for public restrooms.  It uses the Foursquare API to present establishments on a Google Map, and authenticated users can submit reviews of establishments' restroom(s) (cleanliness, style, etc).  Reviews are aggregated and summarized on place cards.`,
     info2: '',
     tech: ["* React", "* Redux", "* Firebase", "* Google Maps API", "* FourSquare API", "* Cloudinary"],
     url: 'https://www.resteasy.app',
@@ -40,7 +45,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'ps5.png',
     title: 'Playstation 5 Inventory Checker',
-    info: `Node.js app that scrapes BestBuy.com to look for inventory of the Playstation 5 video game console.  It runs on an interval and emails me if it finds the console to be available.`,
+    info: `Node.js app that pools and scrapes BestBuy.com to look for inventory of the Playstation 5 video game console.  It runs on an interval and emails me if it finds the console to be available.`,
     info2: '',
     tech: ["* Node.js", "* Express", "* Axios", "* Heroku"],
     url: 'https://bestbuyps5checker.herokuapp.com/ps5/bestbuy',
@@ -50,7 +55,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'MarvelMemory.png',
     title: 'MARVEL Memory Game',
-    info: 'React-based memory game.  User will click on a tile of a Marvel hero/villain, and the game will respond by reshuffling tiles.  The user must not click on the same tile twice and will win when all twelve tiles has been clicked.',
+    info: 'React-based memory game.  User will click on a tile of a Marvel hero/villain, and the game will respond by reshuffling tiles.  The user must not click on the same tile twice and will win when all tiles have been clicked.',
     info2: '',
     tech: ["* React"],
     url: 'https://cpharshaw.github.io/clickyGame/',
@@ -70,7 +75,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'NameGuess2.png',
     title: 'Office Space Name Guess',
-    info: 'Classic game of Hangman with an Office Space theme.  Player will be guessing the character names from the movie Office Space.',
+    info: 'Classic game of Hangman with an Office Space theme.  Player will be guessing the character names from the movie Office Space. (This app only functions on desktops and devices with physical keyboards.)',
     info2: '',
     tech: ["* jQuery", "* HTML", "* CSS"],
     url: 'https://cpharshaw.github.io/word-guess-game/',
