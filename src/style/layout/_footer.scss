@@ -36,9 +36,33 @@
   }
 }
 
+
+footer {
+  padding: 10px !important;
+}
+
+.social-links {
+  padding-bottom: 25px !important;
+}
+
+#footer_hr {
+  height: 0.01px !important;
+  width: 75% !important;
+  // padding-top: 10px !important;
+  padding-bottom: 15px !important;
+  // padding-bottom: 20px !important;
+  // border: 0 none !important;
+  // background-color: #b7d0e2 !important;
+}
+
 .footer__text, .footer__text > a {
   color: #434343 !important;
+  font-size: 1rem !important;
+  padding-top: 20px !important;  
 }
+
+
+
 
 .social-links {
   display: flex;

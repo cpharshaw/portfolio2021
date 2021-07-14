@@ -2,14 +2,14 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Craig Harshaw | Web Developer', // e.g: 'Name | Developer'
+  title: 'Portfolio | Craig Harshaw', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: ' ', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: ' ',
+  title: '',
   name: 'Craig Harshaw',
   subtitle: 'Web Developer',
   cta: '',
@@ -17,16 +17,17 @@ export const heroData = {
 
 // ABOUT DATA
 // I am a fan of Javascript and enjoy using React and Node to tinker and build applications
-// 
 // and I'm a highly motivated self-starter seeking to launch a professional development career and use my full-stack development skills to build great applications.
+// , and I've always loved building things.  As a kid, I could typically be found working on K'nex models for hours on end, only taking breaks to eat and design rides in Roller Coaster Tycoon.
 export const aboutData = {
-  img: '', //profile.jpg
-  paragraphOne: `Hello.  My name is Craig and I am a web developer currently living in Philadelphia, PA.`,
-  paragraphTwo: `I have a background in data analytics and can pivot table or vlookup just about anything.`,
-  paragraphThree: `I've learned how to learn... `,
+  img: 'profile.jpg', //profile.jpg
+  paragraphOne: `My name is Craig and I'm a web developer based out of Philadelphia.`,
+  paragraphTwo: `I got my first taste of web design from a college HTML class, and a few years ago, rediscovered the craft.  I've been learning, tinkering, and building since.`,
+  paragraphThree: ` `,
   paragraphFour: ` `,
-  paragraphFive: `In my free time, I love to play rec league soccer, basketball, and flag football.  I am an adventurous eater as well, with Indian food, sushi, and BBQ among my faves.`,
-  resume: '', // if no resume, the button will not show up https://www.resumemaker.online/es.php
+  paragraphFive: `I also have a background in data & analytics, working within the mortgage industry, and can pivot or vlookup just about anything.`,
+  paragraphSix: `In my free time, I love to play rec league soccer, basketball, and flag football.  I am an adventurous eater as well, with Indian food, sushi, and BBQ among my faves.`,
+  resume: 'https://drive.google.com/file/d/1jYDoJRFJuUuQ0hDBjfyj9D4xYIesPEeK/view?usp=sharing', // if no resume, the button will not show up https://www.resumemaker.online/es.php
 };
 
 // PROJECTS DATA
@@ -35,7 +36,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'RestEasy.png',
     title: 'RestEasy.app',
-    info: `Full-stack React app that aims to be Yelp for public restrooms.  It uses the Foursquare API to present establishments on a Google Map, and authenticated users can submit reviews of establishments' restroom(s) (cleanliness, style, etc).  Reviews are aggregated and summarized on place cards.`,
+    info: `RestEasy is a full-stack web application that aims to be Yelp for public restrooms.  It uses the Foursquare API to present establishments on a Google Map, and authenticated users can submit reviews of restroom(s) based on cleanliness, style, etc.  Photo uploads are optional as part of the review; photo management is handled with Cloudinary's API.  Reviews are aggregated and summarized on place cards.`,
     info2: '',
     tech: ["* React", "* Redux", "* Firebase", "* Google Maps API", "* FourSquare API", "* Cloudinary"],
     url: 'https://www.resteasy.app',
@@ -44,7 +45,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'ps5.png',
-    title: 'Playstation 5 Inventory Checker',
+    title: 'Playstation 5 Stock Checker',
     info: `Node.js app that pools and scrapes BestBuy.com to look for inventory of the Playstation 5 video game console.  It runs on an interval and emails me if it finds the console to be available.`,
     info2: '',
     tech: ["* Node.js", "* Express", "* Axios", "* Heroku"],
@@ -97,7 +98,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'cpharshaw@gmail.com',
+  email: 'craig@craigharshaw.com',
 };
 
 // FOOTER DATA
