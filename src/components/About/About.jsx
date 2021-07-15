@@ -8,7 +8,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, paragraphFour, paragraphFive, paragraphSix, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, paragraphFour_a,paragraphFour_b,paragraphFour_c, paragraphFive, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -47,14 +47,11 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphFour || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                <p className="about-wrapper__info-text" >
+                  {paragraphFour_a} <span style={{fontWeight:"bold", textDecoration: "underline"}}><Link to="contact" smooth duration={1000}>{paragraphFour_b}</Link></span> {paragraphFour_c}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphFive || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphSix || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
               </div>
               <div className="hero-cta d-inline-flex">

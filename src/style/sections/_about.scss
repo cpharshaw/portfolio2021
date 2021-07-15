@@ -2,6 +2,7 @@ html, body {
   background-color: $white-color
 }
 
+
 #about {
   background-color: $primary-color;
   background-image: linear-gradient(
@@ -60,6 +61,7 @@ html, body {
       height: 100%;
       justify-content: center;
       flex-direction: column;
+      font-size: 1.3px !important;
 
       @include respond(phone) {
         align-items: center;
@@ -73,7 +75,7 @@ html, body {
           text-align: center;
         }
         @include respond(phone) {
-          font-size: 1.6rem;
+          font-size: 1.5rem;
           text-align: center;
         }
 

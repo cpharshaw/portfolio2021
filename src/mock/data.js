@@ -19,14 +19,19 @@ export const heroData = {
 // I am a fan of Javascript and enjoy using React and Node to tinker and build applications
 // and I'm a highly motivated self-starter seeking to launch a professional development career and use my full-stack development skills to build great applications.
 // , and I've always loved building things.  As a kid, I could typically be found working on K'nex models for hours on end, only taking breaks to eat and design rides in Roller Coaster Tycoon.
+// As of Summer 2021, I am looking transition to a full-time developer/engineer position.
+// I am have a background in data & analytics, working within the mortgage industry, and can pivot or vlookup just about anything.
+//In my experience as an operations analyst in the mortgage-finance industry, summary tables and dashboards provided our descision makers the information needed to run the business.  Among other interests, I'd like to work on 
+// whilst also working as an Operations Analyst in the mortgage finance industry.
 export const aboutData = {
   img: 'profile.jpg', //profile.jpg
   paragraphOne: `My name is Craig and I'm a web developer based out of Philadelphia.`,
-  paragraphTwo: `I got my first taste of web design from a college HTML class, and a few years ago, rediscovered the craft.  I've been learning, tinkering, and building since.`,
-  paragraphThree: ` `,
-  paragraphFour: ` `,
-  paragraphFive: `I also have a background in data & analytics, working within the mortgage industry, and can pivot or vlookup just about anything.`,
-  paragraphSix: `In my free time, I love to play rec league soccer, basketball, and flag football.  I am an adventurous eater as well, with Indian food, sushi, and BBQ among my faves.`,
+  paragraphTwo: `I got my first taste of web design from a course in college, and a few years ago, rediscovered the craft.  I've been learning, tinkering, and building with fervor since.`,
+  paragraphThree: `I am most experienced with the MERN stack and am really smitten with Javascript, but am always looking to expand my toolbelt. Ultimately, since entering the web developement field, the top skill I've acquired is learning how to learn.  With this skill, I've set my sights on learning additional frameworks, libraries, and languages.`,
+  paragraphFour_a: `As of Summer 2021, I'm availble for a web development roles, in front/back-end or full stack.  Please don't hesitate to `,
+  paragraphFour_b: `reach out`,
+  paragraphFour_c: ` on any project ideas or opportunities.`,
+  paragraphFive: `Some of my personal hobbies: I love to play rec league soccer, basketball, and flag football, and have an overall interest in health and fitness.  I am an adventurous eater as well, with Indian food, sushi, and BBQ among my faves.`,
   resume: 'https://drive.google.com/file/d/1jYDoJRFJuUuQ0hDBjfyj9D4xYIesPEeK/view?usp=sharing', // if no resume, the button will not show up https://www.resumemaker.online/es.php
 };
 
