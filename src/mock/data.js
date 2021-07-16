@@ -31,7 +31,7 @@ export const aboutData = {
   paragraphFour_a: `As of Summer 2021, I'm availble for a web development roles, in front/back-end or full stack.  Please don't hesitate to `,
   paragraphFour_b: `reach out`,
   paragraphFour_c: ` on any project ideas or work opportunities.`,
-  paragraphFive: `Lastly, some information about myself: I love to play rec league soccer, basketball, and flag football, and have an overall interest in health and fitness.  I am an adventurous eater as well, with Indian food, sushi, and BBQ among my faves.`,
+  paragraphFive: `Lastly, a little bit about myself: I love to play rec league soccer, basketball, and flag football, and have an overall interest in health and fitness.  I am an adventurous eater as well, with Indian food, sushi, and BBQ among my faves.`,
   resume: 'https://drive.google.com/file/d/1jYDoJRFJuUuQ0hDBjfyj9D4xYIesPEeK/view?usp=sharing', // if no resume, the button will not show up https://www.resumemaker.online/es.php
 };
 
