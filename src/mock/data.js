@@ -30,8 +30,8 @@ export const aboutData = {
   paragraphThree: `I am most experienced with the MERN stack and am really smitten with Javascript, but am always looking to expand my toolbelt. Ultimately, since entering the web developement field, the top skill I've acquired is learning how to learn.  With this skill, I've set my sights on learning additional frameworks, libraries, and languages.`,
   paragraphFour_a: `As of Summer 2021, I'm availble for a web development roles, in front/back-end or full stack.  Please don't hesitate to `,
   paragraphFour_b: `reach out`,
-  paragraphFour_c: ` on any project ideas or opportunities.`,
-  paragraphFive: `Some of my personal hobbies: I love to play rec league soccer, basketball, and flag football, and have an overall interest in health and fitness.  I am an adventurous eater as well, with Indian food, sushi, and BBQ among my faves.`,
+  paragraphFour_c: ` on any project ideas or work opportunities.`,
+  paragraphFive: `Lastly, some information about myself: I love to play rec league soccer, basketball, and flag football, and have an overall interest in health and fitness.  I am an adventurous eater as well, with Indian food, sushi, and BBQ among my faves.`,
   resume: 'https://drive.google.com/file/d/1jYDoJRFJuUuQ0hDBjfyj9D4xYIesPEeK/view?usp=sharing', // if no resume, the button will not show up https://www.resumemaker.online/es.php
 };
 
