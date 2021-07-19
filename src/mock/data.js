@@ -32,7 +32,7 @@ export const aboutData = {
   paragraphFour_b: `reach out`,
   paragraphFour_c: ` on any project ideas or work opportunities.`,
   paragraphFive: `Lastly, a little bit about myself: I love to play rec league soccer, basketball, and flag football, and have an overall interest in health and fitness.  I am an adventurous eater as well, with Indian food, sushi, and BBQ among my faves.`,
-  resume: 'https://drive.google.com/file/d/1jYDoJRFJuUuQ0hDBjfyj9D4xYIesPEeK/view?usp=sharing', // if no resume, the button will not show up https://www.resumemaker.online/es.php
+  resume: 'https://drive.google.com/file/d/14AQgaUegSgAjWtTTOQX9xk8NGV8doCom/view?usp=sharing', // if no resume, the button will not show up https://www.resumemaker.online/es.php
 };
 
 // PROJECTS DATA
