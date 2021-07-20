@@ -81,7 +81,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'NameGuess2.png',
     title: 'Office Space Name Guess',
-    info: 'Classic game of Hangman with an Office Space theme.  Player will be guessing the character names from the movie Office Space. (This app only functions on desktops and devices with physical keyboards.)',
+    info: `Classic game of Hangman with an Office Space theme.  Player guesses character names from the movie 'Office Space'. (This app only functions on desktops and devices with physical keyboards.)`,
     info2: '',
     tech: ["* jQuery", "* HTML", "* CSS"],
     url: 'https://cpharshaw.github.io/word-guess-game/',
