@@ -28,7 +28,7 @@ export const aboutData = {
   paragraphOne: `My name is Craig and I'm a web developer based out of Philadelphia.`,
   paragraphTwo: `I got my first taste of web design from a course in college, and a few years ago, rediscovered the craft.  I've been learning, tinkering, and building with fervor since.`,
   paragraphThree: `I am most experienced with the MERN stack and am really smitten with Javascript, but am always looking to expand my toolbelt. Ultimately, since entering the web developement field, the top skill I've acquired is learning how to learn.  With this skill, I've set my sights on learning additional frameworks, libraries, and languages.`,
-  paragraphFour_a: `As of Summer 2021, I'm seeking pursuing a full-time web developmer role- front-end, back-end, or full stack.  Please don't hesitate to `,
+  paragraphFour_a: `As of Summer 2021, I'm seeking a full-time web developmer role - front-end, back-end, or full stack.  Please don't hesitate to `,
   paragraphFour_b: `reach out`,
   paragraphFour_c: ` on any project ideas or work opportunities.`,
   paragraphFive: `Lastly, a little bit about myself: I love to play rec league soccer, basketball, and flag football, and have an overall interest in health and fitness.  I am an adventurous eater as well, with Indian food, sushi, and BBQ among my faves.`,
