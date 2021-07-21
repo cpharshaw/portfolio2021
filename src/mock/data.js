@@ -51,7 +51,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'ps5.png',
     title: 'Playstation 5 Stock Checker',
-    info: `Node.js app that pools and scrapes BestBuy.com to look for inventory of the Playstation 5 video game console.  It runs on an interval and emails me if it finds the console to be available.`,
+    info: `Node.js app that polls and scrapes BestBuy.com to look for inventory of the Playstation 5 video game console.  It runs on an interval and emails me if it finds the console to be available.`,
     info2: '',
     tech: ["* Node.js", "* Express", "* Axios", "* Heroku"],
     url: 'https://bestbuyps5checker.herokuapp.com/ps5/bestbuy',
