@@ -40,12 +40,26 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'iReport_firstPage.png',
+    screenshotsArr: [
+      'firstPage.png',
+      'step1.png',
+      'step2_append.png',
+      'step2_append_A_fileselected.png',
+      'step3_append.png',
+      'step4_append.png',
+      'step4_portfolio.png',
+      'step5_append.png',
+      'step6_append.png',
+      'step6_append_running.png',
+      'step6_append_success.png',      
+    ],
     title: 'iReport',
-    info: `iReport is a browser-based self-service reporting tool for insurance policy information.  End users, who don't need to know SQL or have advanced technical skills, can easily generate a report for one or many customers.  Users will set their selection criteria, or upload a file containing policies they wish to append data to, and then choose fields to display as part of their record set.  When the report request is ultimately submitted, an API call is sent to the Node server, which will convert report parameters to SQL, execute a query, and return results in Excel format.`,
+    info: `iReport is a browser-based self-service reporting tool for insurance policy information.  End users, who don't need to know SQL or have advanced technical skills, can easily generate a report for one or many customers.  Users will set their selection criteria, or upload a file containing policies they wish to append information to, and then choose fields to display.  When the report request is ultimately submitted, an API call is sent to the Node server, which will convert report parameters to SQL, execute a query, and return results in Excel format.`,
     info2: '',
     tech: ["* NextJs", "* React", "* Material UI (MUI)", "* Node", "* Express", "* SQL / SQL Server", "* Axios"],
-    // url: 'https://github.com/cpharshaw/iReport/tree/master/screenshots',
+    url: 'https://github.com/cpharshaw/iReport/tree/master/screenshots',
     repo: 'https://github.com/cpharshaw/iReport', // if no repo, the button will not show up
+    hide: true
   },  
   {
     id: nanoid(),
