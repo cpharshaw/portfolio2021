@@ -41,7 +41,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'iReport_firstPage.png',
     title: 'iReport',
-    info: `iReport is a browser-based self-service reporting tool for insurance policy information.  End users, who don't need to know SQL or have advanced technical skills, can easily generate a report for for specific customer.  Users set their selection criteria (or provide a population they wish to append data to via a file upload) and choose fields via a wizard.  When a user submits their report request, an API call is sent to the Node server which will convert report paramters to SQL, execute a query, and return results in Excel format.`,
+    info: `iReport is a browser-based self-service reporting tool for insurance policy information.  End users, who don't need to know SQL or have advanced technical skills, can easily generate a report for for specific customer.  Users set their selection criteria (or provide a population they wish to append data to via a file upload) and choose fields via a wizard.  When a user submits their report request, an API call is sent to a Node server which will convert report parameters to SQL, execute a query, and return results in Excel format.`,
     info2: '',
     tech: ["* NextJs", "* React", "* Material UI (MUI)", "* Node", "* Express", "* SQL / SQL Server", "* Axios"],
     url: 'https://github.com/cpharshaw/iReport/tree/master/screenshots',
