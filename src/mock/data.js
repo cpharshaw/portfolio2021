@@ -39,6 +39,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'iReport_firstPage.png',
+    title: 'iReport',
+    info: `iReport is a browser-based self-service reporting tool for insurance policy information.  End users, who don't need to know SQL or have advanced technical skills, can easily generate a report for for specific customer.  Users set their selection criteria (or provide a population they wish to append data to via a file upload) and choose fields via a wizard.  When a user submits their report request, an API call is sent to the Node server which will convert report paramters to SQL, execute a query, and return results in Excel format.`,
+    info2: '',
+    tech: ["* NextJs", "* React", "* Material UI (MUI)", "* Node", "* Express", "* SQL / SQL Server", "* Axios"],
+    url: 'https://github.com/cpharshaw/iReport/tree/master/screenshots',
+    repo: 'https://github.com/cpharshaw/iReport', // if no repo, the button will not show up
+  },  
+  {
+    id: nanoid(),
     img: 'RestEasy.png',
     title: 'RestEasy.app',
     info: `RestEasy is a full-stack web application that aims to be Yelp for public restrooms.  It uses the Foursquare API to present establishments on a Google Map, and authenticated users can submit reviews of restroom(s) based on cleanliness, style, etc.  Photo uploads are optional as part of the review; photo management is handled with Cloudinary's API.  Reviews are aggregated and summarized on place cards.`,
