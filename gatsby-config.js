@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/portfolio2021",
+  pathPrefix: '/portfolio2021',
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
@@ -25,7 +25,7 @@ module.exports = {
       options: {
         name: `Gatsby Simplefolio`,
         short_name: `Simplefolio`,
-        start_url: `/`,
+        start_url: `/portfolio2021/`, // Add your pathPrefix here
         background_color: `#fff`,
         theme_color: `#02aab0`,
         display: `standalone`,
